@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>form-practice</title>
-  </head>
-  <body>
-    <section class="base">
-      <div class="inner">
-        <h1 class="page_title">登録フォーム</h1>
-        <h2 class="form_title">アカウント作成</h2>
-        <h3 class="content_title">個人情報</h3>
-        <div class="input_section">
-          <label class="label_text"
-            >名字
-            <span class="required">※</span>
-          </label>
-          <input
-            class="input_area"
-            id="family_name"
-            type="text"
-            name="name"
-            autocomplete="family_name"
-            required
-          />
-        </div>
-        
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>form-practice</title>
+</head>
+
+<body>
+  <section class="base">
+    <div class="inner">
+      <h1 class="page_title">登録フォーム</h1>
+      <h2 class="form_title">アカウント作成</h2>
+      <h3 class="content_title">個人情報</h3>
+      <div class="input_section">
+        <label class="label_text">名字
+          <span class="required">※</span>
+        </label>
+        <input class="input_area" id="family_name" type="text" name="name" autocomplete="family_name" required />
       </div>
-    </section>
-  </body>
+      <div class="input_section">
+        <label class="label_text">名前
+          <span class="required">※</span>
+        </label>
+        <input class="input_area" id="given_name" type="text" name="name" autocomplete="given_name" required />
+      </div>
+      <div class="input_section">
+        <label class="label_text">生年月日
+          <span class="required">※</span>
+        </label>
+
+      </div>
+  </section>
+</body>
+
 </html>
